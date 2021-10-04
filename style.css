@@ -1,6 +1,7 @@
 body{
     height: 100%;
     margin: 0;
+    box-sizing: border-box;
 }
 
 .landing{
@@ -17,6 +18,36 @@ body{
     top: 50%;
     left: 50%;
     margin: -25px 0 0 -25px; /* apply negative top and left margins to truly center the element */
+  }
+
+  .items{
+    height: 100vh;
+    position: relative;
+
+  }
+  .m1,.m2,.m3{
+    width: 400px;
+    height: 100px;
+    top: 50%;
+    left: 50%;
+  }
+  .m1 {
+    width: 25%;
+    float: left;
+    padding: 15px;
+    
+  }
+  .m2 {
+    width: 25%;
+    float: left;
+    padding: 15px;
+    
+  }
+  .m3 {
+    width: 25%;
+    float: left;
+    padding: 15px;
+    
   }
 
 .card {
